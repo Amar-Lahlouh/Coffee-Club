@@ -1,0 +1,30 @@
+.plate {
+  width: 300px;
+  border-radius: 50%;
+}
+.cardmenu {
+  margin: 15px;
+  padding: 30px;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  border: 1px solid burlywood;
+  border-radius: 10px;
+  max-width: 400px;
+}
+.firstpart,
+.secondpart {
+  padding: 5px;
+}
+.firstpart h2 {
+  color: var(--first-color);
+  text-align: center;
+}
+.secondpart .price {
+  color: burlywood;
+  font-size: var(--normal-font-size);
+}
+/* .Cards-Menu1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+} */

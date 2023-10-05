@@ -1,0 +1,22 @@
+.features {
+  margin: 60px;
+}
+
+.feature-header {
+  text-align: center;
+}
+.feature-header h1 {
+  color: var(--first-color);
+}
+.Items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .Items {
+    margin: auto;
+  }
+}

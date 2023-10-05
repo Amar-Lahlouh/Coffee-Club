@@ -1,0 +1,66 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper {
+  /* width: 100%;
+  height: 100%; */
+  padding: 20px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test-info img {
+  border-radius: 50%;
+  width: 150px;
+}
+.test-data {
+  /* margin: 30px; */
+  color: black;
+
+  border-radius: 50%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  margin: 10px;
+  border-radius: 15px;
+  max-width: 400px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  font-weight: 700;
+}
+.test-description {
+  background-color: rgb(187, 152, 109);
+  padding: 20px;
+}
+.test-info {
+  background-color: rgb(65, 53, 42);
+  color: white;
+  padding: 20px;
+}
+#Testinomials {
+  background-color: rgb(8, 8, 8);
+}
+.swiper-pagination-bullet {
+  color: white;
+
+  background-color: rgb(163, 156, 156);
+}

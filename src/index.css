@@ -1,0 +1,161 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  .about {
+    align-items: center;
+    justify-content: center;
+  }
+  .content {
+    margin: auto;
+  }
+  .Items {
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  .btn {
+    padding: 5px;
+  }
+  .About-img {
+    width: 150px;
+    height: 300px;
+  }
+  .feature-image {
+    width: 50%;
+  }
+  .photos img {
+    width: 450px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .menu {
+    position: absolute;
+    top: 100%;
+    inset-inline: 0.75rem;
+    background-color: white;
+    transition: 0.3s ease;
+    width: 70%;
+    margin: auto;
+    height: 0;
+    overflow: scroll;
+  }
+  .show-menu {
+    position: absolute;
+    top: 100%;
+    inset-inline: 0.75rem;
+    background-color: white;
+    transition: 0.3s ease;
+    width: 70%;
+    margin: auto;
+    overflow-y: scroll;
+    max-height: 220px;
+  }
+  .list {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .card {
+    max-width: 250px;
+    margin: auto;
+  }
+  .Items {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .cardmenu {
+    margin: 50px;
+    width: 250px;
+  }
+  .card img {
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    display: inline;
+  }
+  .card-content {
+    max-width: 400px;
+  }
+  .nav-link a {
+    color: #000;
+  }
+  .nav-toggle {
+    display: block;
+  }
+  .subtitle {
+    font-size: 30px;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .home-content {
+    max-width: fit-content;
+  }
+  .res-btn {
+    width: 70%;
+  }
+  .cardmenu {
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+  .plate {
+    width: 200px;
+  }
+}
+
+@media (max-width: 800px) {
+  .cardmenu {
+    max-width: 800px;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+
+    justify-content: center;
+  }
+  .firstpart {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .test-data {
+    height: 250px;
+    margin-bottom: 20px;
+  }
+  .test-description {
+    padding: 10px;
+    font-size: small;
+  }
+  .test-info img {
+    width: 70px;
+  }
+
+  .test-data .name {
+    font-size: small;
+  }
+}
+@media (max-width: 500px) {
+  .cardmenu {
+    width: fit-content;
+    margin: 50px;
+  }
+  .buttons button {
+    font-size: 13px;
+  }
+}
+@media (max-width: 500px) {
+  .photos img {
+    width: 250px;
+  }
+  .photos {
+    margin: auto;
+  }
+}

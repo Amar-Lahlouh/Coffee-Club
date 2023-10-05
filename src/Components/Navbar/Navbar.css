@@ -1,0 +1,41 @@
+.navbar {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 100;
+  width: 100%;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+}
+.logo {
+  width: 190px;
+  border-radius: 45%;
+  cursor: pointer;
+}
+.logo img {
+  border-radius: 50%;
+}
+.list {
+  display: flex;
+  gap: 30px;
+}
+.nav-link a,
+.nav-toggle {
+  color: var(--title-color);
+}
+.nav-link a:hover {
+  color: var(--first-color);
+}
+.nav-toggle {
+  font-size: var(--h2-font-size);
+  display: none;
+}
+.nav-link {
+  font-size: var(--large-font-size);
+}
+
+/* Scroll Navbar */

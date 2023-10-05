@@ -1,0 +1,80 @@
+.footer {
+  box-shadow: 4px 7px 20px white;
+  margin-top: 100px;
+}
+.footer-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.footer-logo img {
+  width: 200px;
+}
+.footer-description {
+  margin-bottom: 20px;
+}
+.footer-contact {
+  display: flex;
+
+  flex-direction: column;
+  column-gap: 20px;
+  justify-content: left;
+}
+.footer-contact .icon {
+  color: var(--first-color);
+  margin-right: 5px;
+}
+.footer-content .social,
+.footer-content .footer-title {
+  margin-top: 40px;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-links .footer-link .icon {
+  color: var(--first-color);
+}
+.footer-links .footer-link {
+  color: #fff;
+}
+.subscribe-input {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.footer-content .subscribe {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.feature-social-link {
+  width: 38px;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  transition: 0.3s ease;
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid var(--first-color);
+}
+.links {
+  display: flex;
+  gap: 5px;
+  margin: 5px;
+}
+.feature-social-link:hover {
+  background-color: var(--first-color);
+}
+.copyright-text {
+  padding: 30px;
+  display: block;
+  color: white;
+  background-color: wheat;
+  text-align: center;
+  border-top: 1px dashed var(--first-color);
+}

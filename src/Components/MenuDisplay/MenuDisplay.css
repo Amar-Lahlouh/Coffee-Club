@@ -1,0 +1,9 @@
+.cont2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+.dis {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/menuback.jpg");
+}

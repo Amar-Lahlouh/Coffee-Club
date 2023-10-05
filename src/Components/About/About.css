@@ -1,0 +1,33 @@
+.about {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px;
+}
+.image-about img {
+  width: 18rem;
+  /* margin-left: 300px; */
+}
+.content {
+  border: 1px solid var(--first-color);
+
+  padding: 30px;
+  max-width: 550px;
+  margin-right: 100px;
+}
+.about h2 {
+  color: var(--first-color);
+}
+.about h3 {
+  font-size: var(-- normal-font-size);
+  padding: 10px 0;
+}
+@media (max-width: 756px) {
+  .content {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+  }
+}

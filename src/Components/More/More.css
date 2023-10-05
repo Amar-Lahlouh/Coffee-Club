@@ -1,0 +1,26 @@
+.gallery {
+  margin: 50px;
+}
+
+.photos img {
+  width: 350px;
+  border-radius: 10px;
+  margin: 10px;
+  transition: 0.5s ease;
+}
+.photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.photos img:hover {
+  transform: translateY(-5px);
+}
+.photos img {
+  margin-right: 5px;
+}
+.gallery {
+  margin: 20px;
+}
